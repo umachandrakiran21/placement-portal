@@ -1,6 +1,7 @@
 {
   "name": "placement-portal",
   "version": "1.0.0",
+  "main": "backend/server.js",
   "scripts": {
     "start": "node backend/server.js"
   },
