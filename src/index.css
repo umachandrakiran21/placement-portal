@@ -1,20 +1,4 @@
 body{
   margin:0;
   font-family:Arial;
-  background:#f4f4f4;
-}
-
-nav{
-  background:black;
-  color:white;
-  padding:20px;
-}
-input{
-  padding:10px;
-  margin:20px;
-}
-
-button{
-  padding:10px;
-  cursor:pointer;
 }

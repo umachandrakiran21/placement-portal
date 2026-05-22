@@ -1,146 +1,16 @@
-# Placement Portal
+# React + Vite
 
-A simple full-stack Placement Portal project built using Node.js, Express.js, HTML, CSS, and JavaScript.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## 🚀 Features
+Currently, two official plugins are available:
 
-* Add tasks
-* Edit tasks
-* Delete tasks
-* Dynamic frontend updates
-* REST API integration
-* Full CRUD operations
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
----
+## React Compiler
 
-## 🛠 Tech Stack
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-### Frontend
+## Expanding the ESLint configuration
 
-* HTML
-* CSS
-* JavaScript
-
-### Backend
-
-* Node.js
-* Express.js
-
-### Tools
-
-* Git
-* GitHub
-
----
-
-## 📂 Project Structure
-
-```bash
-placement-portal/
-│
-├── backend/
-│   └── server.js
-│
-├── frontend/
-│   ├── index.html
-│   ├── style.css
-│   └── script.js
-│
-├── package.json
-└── README.md
-```
-
----
-
-## ▶️ Run Project Locally
-
-### 1. Clone Repository
-
-```bash
-git clone https://github.com/umachandrakiran21/placement-portal.git
-```
-
-### 2. Open Project
-
-```bash
-cd placement-portal
-```
-
-### 3. Install Dependencies
-
-```bash
-npm install
-```
-
-### 4. Start Server
-
-```bash
-npm start
-```
-
-### 5. Open Browser
-
-```text
-http://localhost:5000
-```
-
----
-
-## 📌 API Endpoints
-
-### GET Tasks
-
-```http
-GET /api/tasks
-```
-
-### Add Task
-
-```http
-POST /api/tasks
-```
-
-### Edit Task
-
-```http
-PUT /api/tasks/:id
-```
-
-### Delete Task
-
-```http
-DELETE /api/tasks/:id
-```
-
----
-
-## 🎯 Learning Outcomes
-
-Through this project, I learned:
-
-* Express.js basics
-* REST API creation
-* CRUD operations
-* Frontend and backend integration
-* DOM manipulation
-* Git and GitHub workflow
-* Debugging real-world issues
-
----
-
-## 🚀 Future Improvements
-
-* User authentication
-* Database integration
-* Better UI/UX
-* Task completion status
-* Deployment
-
----
-
-## 👨‍💻 Author
-
-Uma Chandra Kiran
-
-```
-```
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
